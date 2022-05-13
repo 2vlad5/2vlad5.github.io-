@@ -56,12 +56,23 @@ body .Main-Content .Welcome--content{
   color: white;
 }
 
+body .Sector{
+  text-align: center;
+  color: white;
+  background: #00000073;
+  margin-top: 55px;
+}
+
 body .Main-Usluga .Usluga-Card{
   text-align: center;
   color: white;
   background: #2e2f71;
   margin-top: 55px;
   border-radius: 50px;
+}
+
+body .Main-Usluga .Usluga-Card .IMG-Usluga-Block i:not(:first-child){
+  display: none;
 }
 
 body .Main-Usluga .Usluga-Card .IMG-Usluga-Block{
@@ -112,4 +123,16 @@ body .TXT-Usluga--btn:hover h1{
   color: #04ff05;
   transform: scale(1.2);
   transition: all 1s;
+}
+
+@media screen and (max-width: 991px) {
+
+  body .Main-Usluga .Usluga-Card .IMG-Usluga-Block i:not(:first-child){
+    display: contents;
+  }
+
+  body .Main-Usluga .Usluga-Card .IMG-Usluga-Block{
+    font-size: 200px;
+  }
+
 }

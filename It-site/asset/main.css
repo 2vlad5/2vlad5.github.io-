@@ -55,3 +55,61 @@ body .Main-Content .Welcome--content{
   text-align: center;
   color: white;
 }
+
+body .Main-Usluga .Usluga-Card{
+  text-align: center;
+  color: white;
+  background: #2e2f71;
+  margin-top: 55px;
+  border-radius: 50px;
+}
+
+body .Main-Usluga .Usluga-Card .IMG-Usluga-Block{
+  font-size: 400px;
+}
+
+body .Main-Usluga .Usluga-Card .TXT-Usluga-Block{
+  background: #1805b55c;
+  border-radius: 50px;
+  box-shadow: -10px 0px 10px 1px #010e78;
+}
+
+body .TXT-Usluga--header{
+  margin-top: 55px;
+}
+
+body .TXT-Usluga--ul ul{
+  margin-top: 15px;
+  padding: 0;
+}
+
+body .TXT-Usluga--ul ul li{
+  display: inline-flex;
+  list-style: none;
+  font-size: 25px;
+  background: #5e5f95;
+  padding: 5px;
+  border-radius: 50px;
+  margin: 0 0 17px 0;
+}
+
+body .TXT-Usluga--prevu{
+  font-size: 20px;
+}
+
+body .TXT-Usluga--btn{
+  color: #fad7d7;
+  border-radius: 50px;
+  background: #0000006b;
+  cursor: grab;
+}
+
+body .TXT-Usluga--btn h1{
+  transition: all 0.5s;
+}
+
+body .TXT-Usluga--btn:hover h1{
+  color: #04ff05;
+  transform: scale(1.2);
+  transition: all 1s;
+}

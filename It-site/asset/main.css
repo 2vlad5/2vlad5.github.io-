@@ -48,12 +48,6 @@ body{
 }
 
 body .Main-Content .Welcome{
-  background-color:#ffffff;
-  background-image:url(https://2vlad5.github.io/asset/img/space.jpg);
-  padding-top:250px;
-  padding-bottom:80px;
-  background-size: cover;
-  background-position: 0% 0%;
 }
 
 body .Main-Content .Welcome--content{

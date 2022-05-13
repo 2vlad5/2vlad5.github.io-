@@ -104,6 +104,26 @@ body .TXT-Usluga--ul ul li{
   margin: 0 0 17px 0;
 }
 
+.TXT-Usluga--ul ul li.color-1{
+  background: linear-gradient(359deg, #ff00005e, #ff00a54d);
+  font-weight: 500;
+}
+
+.TXT-Usluga--ul ul li.color-2{
+  background: linear-gradient(25deg, #fff10073, #00ff7e54);
+  font-weight: 500;
+}
+
+.TXT-Usluga--ul ul li.color-3{
+  background: linear-gradient(277deg, #5dc1da5c, #ff572247);
+  font-weight: 500;
+}
+
+.TXT-Usluga--ul ul li.color-4{
+  background: linear-gradient(177deg, #7200ff4a, #ff00a55e);
+  font-weight: 500;
+}
+
 body .TXT-Usluga--prevu{
   font-size: 20px;
 }
@@ -135,9 +155,12 @@ body .Usluga-Arrows i{
   padding: 15px;
   border-radius: 50px;
   margin-top: 20px;
-  margin-bottom: 20px;
   cursor: pointer;
   transition: all 1s;
+}
+
+#Show-Usluga-2, #Show-Usluga-3{
+  display: none;
 }
 
 body .Usluga-Arrows i:hover{
@@ -147,9 +170,6 @@ body .Usluga-Arrows i:hover{
   box-shadow: 0px 0px 20px 0px red;
   transition: all 1s;
 }
-
-
-
 
 @media screen and (max-width: 991px) {
 

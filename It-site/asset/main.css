@@ -4,7 +4,8 @@
 }
 
 header{
-  background: white;
+  background: black;
+  color: white;
 }
 
 header .header--menu{
@@ -39,4 +40,24 @@ header .header--menu ul li{
 header .header--menu ul li:hover{
   background: #99999987;
   transition: all 1s;
+}
+
+body{
+  background: #466368;
+  background: linear-gradient(to right, #5760d2, #3e00b2, #5760d2);}
+}
+
+body .Main-Content .Welcome{
+  background-color:#ffffff;
+  background-image:url(https://2vlad5.github.io/asset/img/space.jpg);
+  padding-top:250px;
+  padding-bottom:80px;
+  background-size: cover;
+  background-position: 0% 0%;
+}
+
+body .Main-Content .Welcome--content{
+  background-color: #00000073;
+  text-align: center;
+  color: white;
 }

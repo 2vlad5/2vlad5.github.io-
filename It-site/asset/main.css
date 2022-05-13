@@ -125,6 +125,32 @@ body .TXT-Usluga--btn:hover h1{
   transition: all 1s;
 }
 
+body .Usluga-Arrows{
+  text-align: center;
+  justify-content: center;
+}
+
+body .Usluga-Arrows i{
+  background: aliceblue;
+  padding: 15px;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+body .Usluga-Arrows i:hover{
+  background: #f0f8ff61;
+  border-radius: 50px;
+  color: red;
+  box-shadow: 0px 0px 20px 0px red;
+  transition: all 1s;
+}
+
+
+
+
 @media screen and (max-width: 991px) {
 
   body .Main-Usluga .Usluga-Card .IMG-Usluga-Block i:not(:first-child){

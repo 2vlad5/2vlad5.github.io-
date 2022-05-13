@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  background: white;
+}
+
+header .header--menu{
+  display: flex;
+  justify-content: center;
+}
+
+header .header--menu--logo{
+  position: absolute;
+  left: 35px;
+}
+
+header .header--menu--logo ul li{
+  padding: 10px;
+  cursor: default;
+}
+
+header ul{
+  list-style: none;
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+}
+
+header .header--menu ul li{
+  padding: 10px;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+header .header--menu ul li:hover{
+  background: #99999987;
+  transition: all 1s;
+}
+
+body .Main-Content .Welcome{
+  background-color:#ffffff;
+  background-image:url(https://2vlad5.github.io/asset/img/space.jpg);
+  padding-top:250px;
+  padding-bottom:80px;
+  background-size: cover;
+  background-position: 0% 0%;
+}
+
+body .Main-Content .Welcome--content{
+  background-color: #00000073;
+  text-align: center;
+  color: white;
+}
+
+body .Main--Btn{
+  margin: 55px 0 55px 0;
+  text-align: center;
+}
+
+body .Main--Btn h1{
+  display: initial;
+  background: #3127838f;
+  border-radius: 50px;
+  padding: 10px;
+  color: blue;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+body .Main--Btn h1:hover{
+  display: initial;
+  background: #312783;
+  border-radius: 50px;
+  padding: 10px;
+  color: wheat;
+  transition: all 1s;
+}
+
+body .Main--About{
+  background: #c1c1c16b;
+  margin-bottom: 55px;
+  color: dimgrey;
+}
+
+body .Main--About-text--header{
+  font-size: 40px;
+  color: black;
+}
+
+body .Main--About-text--ul{
+  font-size: 17px;
+}

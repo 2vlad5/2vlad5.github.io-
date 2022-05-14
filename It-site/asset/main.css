@@ -171,6 +171,34 @@ body .Usluga-Arrows i:hover{
   transition: all 1s;
 }
 
+body .Main-Call{
+  font-weight: bold;
+}
+
+body .Main-Call .Call:first-child{
+  margin-top: 55px;
+}
+
+body .Main-Call .Call{
+  background: #f0f8ff78;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  align-items: center;
+  padding: 10px;
+}
+
+body .Main-Call .Call--Avatar{
+  text-align: end;
+}
+
+body .Main-Call .Call--Name p{
+  margin: 0;
+}
+
+body .Main-Call .Call--Msg p{
+  margin: 0;
+}
+
 @media screen and (max-width: 991px) {
 
   body .Main-Usluga .Usluga-Card .IMG-Usluga-Block i:not(:first-child){

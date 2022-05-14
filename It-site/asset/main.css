@@ -230,6 +230,37 @@ body .Main-Call .Call--Msg p{
   margin: 0;
 }
 
+body .Main-More-Info-Cont{
+  display: none;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  background: #000000ab;
+  transition: 1s;
+}
+
+body .Info-Cont--Block{
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  bottom: 30px;
+  right: 30px;
+  color: white;
+  text-align: center;
+  background: #000000;
+  border-radius: 50px;
+}
+
+body .Info-Cont--Block .Info-Cont--Close{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 10px;
+}
+
 @media screen and (max-width: 991px) {
 
   body .Main-Usluga .Usluga-Card .IMG-Usluga-Block i:not(:first-child){

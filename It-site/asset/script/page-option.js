@@ -56,4 +56,43 @@ $( document ).ready(function() {
     alert("Внимание! IT-Karina перегружена, попробуйте обратиться позже");
  });
 
+   $('.HREF-1').click(function() {
+     $('html, body').animate({scrollTop: $(document).height() - $(window).height()}, 500);
+  });
+  $('.HREF-2').click(function() {
+    alert("Комментарии не доступны на версии Prototype");
+ });
+ $('.HREF-3').click(function() {
+   alert("Политика использования и т.д. отсутствуют на версии Prototype");
 });
+
+  $('#btn-1').click(function() {
+    $('.Main-More-Info-Cont').fadeIn(1000);
+    $('#Site').show(1000);
+  });
+
+  $('#btn-2').click(function() {
+    $('.Main-More-Info-Cont').fadeIn(1000);
+    $('#Site').show(1000);
+  });
+
+  $('#btn-3').click(function() {
+    $('.Main-More-Info-Cont').fadeIn(1000);
+    $('#Site').show(1000);
+  });
+  
+  $('.Info-Cont--Close').click(function() {
+    $('.Main-More-Info-Cont').fadeOut(1000);
+    $('#Site').fadeOut(1000);
+  });
+
+});
+
+function ScrollImg() {
+    var ScrollPos = $(window).scrollTop();
+    $('#scroll').css('background', 'repeating-linear-gradient(' + ScrollPos/10 + 'deg, black, transparent 100px)');
+}
+
+  $(window).scroll(function() {
+     ScrollImg();
+  });

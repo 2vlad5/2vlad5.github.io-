@@ -171,6 +171,37 @@ body .Usluga-Arrows i:hover{
   transition: all 1s;
 }
 
+body .Main-About{
+  background: repeating-linear-gradient(45deg, black, transparent 100px);
+  margin-top: 55px;
+  border-radius: 15px;
+}
+
+body .Main-About .h3-1{
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+
+body .Main-About .About--content{
+  margin: 30px 10px 30px 10px;
+  padding: 30px 15px 30px 25px;
+  background: white;
+  border-radius: 50px;
+}
+
+body .Main-About .div-1{
+  text-align: center;
+}
+
+body .Main-About .div-1 i{
+  font-size: -webkit-xxx-large;
+}
+
+body .Main-About .div-2 h4{
+  margin: 0;
+}
+
 body .Main-Call{
   font-weight: bold;
 }

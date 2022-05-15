@@ -42,6 +42,7 @@ header .header--menu ul li:hover{
 }
 
 body{
+  background: antiquewhite !important;
   height: 2000px;
 }
 
@@ -52,6 +53,10 @@ body .--Img-Block--Img{
   padding-bottom:80px;
   background-size: cover;
   background-position: 35% 0%;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
 }
 
 body .--Img-Block--TXT{
@@ -66,10 +71,54 @@ body .--Img-Block--TXT p{
   margin: 0;
 }
 
-body .Saintist--Img.San1{
-  background-image:url(https://2vlad5.github.io/Page/asset/img/saintist/San1.jpg);
-  padding-top:80px;
-  padding-bottom:80px;
+.Sector{
+  margin-top: 55px;
+  text-align: center;
+  background: #ff00006b;
+  padding: 10px;
+}
+
+.Sector p{
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0;
+}
+
+body .Main--Cont{
+  margin-top: 55px;
+}
+
+body .Saintist{
+  background: #00000047;
+  border-radius: 55px;
+}
+
+body .Saintist--Img{
+  padding-top:500px;
   background-size: cover;
   background-position: 35% 0%;
+  border-radius: 55px 0 0 55px;
+}
+
+body .Saintist--Img.San1{
+  background-image:url(https://2vlad5.github.io/Page/asset/img/saintist/San1.jpg);
+}
+
+body .Saintist .Saintist--Block p.Saintist--Name{
+  font-size: 55px;
+  font-weight: bold;
+}
+
+body .Saintist .Saintist--Block p.Saintist--Inf{
+  font-size: 25px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+body .Saintist .Saintist--Block p.Saintist--Btn{
+  font-size: 25px;
+  text-align: center;
+  margin-top: 15px;
+  background: gray;
+  border-radius: 50px;
 }

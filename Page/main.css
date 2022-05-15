@@ -40,3 +40,12 @@ header .header--menu ul li:hover{
   background: #99999987;
   transition: all 1s;
 }
+
+body .--Img-Block--Img{
+  background-color:#ffffff;
+  background-image:url(https://2vlad5.github.io/Page/asset/img/main-fon.jpg);
+  padding-top:250px;
+  padding-bottom:80px;
+  background-size: cover;
+  background-position: 0% 0%;
+}

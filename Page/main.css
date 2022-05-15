@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  background: white;
+}
+
+header .header--menu{
+  display: flex;
+  justify-content: center;
+}
+
+header .header--menu--logo{
+  position: absolute;
+  left: 35px;
+}
+
+header .header--menu--logo ul li{
+  padding: 10px;
+  cursor: default;
+}
+
+header ul{
+  list-style: none;
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+}
+
+header .header--menu ul li{
+  padding: 10px;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+header .header--menu ul li:hover{
+  background: #99999987;
+  transition: all 1s;
+}

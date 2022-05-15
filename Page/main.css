@@ -104,6 +104,14 @@ body .Saintist--Img.San1{
   background-image:url(https://2vlad5.github.io/Page/asset/img/saintist/San1.jpg);
 }
 
+body .Saintist--Img.San2{
+  background-image:url(https://2vlad5.github.io/Page/asset/img/saintist/San2.jpg);
+}
+
+body .Saintist--Img.San3{
+  background-image:url(https://2vlad5.github.io/Page/asset/img/saintist/San3.jpg);
+}
+
 body .Saintist .Saintist--Block p.Saintist--Name{
   font-size: 55px;
   font-weight: bold;
@@ -121,4 +129,26 @@ body .Saintist .Saintist--Block p.Saintist--Btn{
   margin-top: 15px;
   background: gray;
   border-radius: 50px;
+}
+
+body .Saintist-Arrows{
+  text-align: center;
+  justify-content: center;
+}
+
+body .Saintist-Arrows i{
+  background: aliceblue;
+  padding: 25px;
+  border-radius: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+body .Saintist-Arrows i:hover{
+  background: #f0f8ff61;
+  border-radius: 50px;
+  color: red;
+  box-shadow: 0px 0px 20px 0px red;
+  transition: all 1s;
 }

@@ -125,4 +125,23 @@ $('#Tel-Ar-Right').click(function() {
  }
 });
 
+$('#Saintist--Btn1').click(function() {
+  $('.--Moree-Saintist2').hide(1000);
+  $('.--Moree-Saintist3').hide(1000);
+  $('.--Moree-Saintist1').show(1000);
+});
+
+$('#Saintist--Btn2').click(function() {
+  $('.--Moree-Saintist1').hide(1000);
+  $('.--Moree-Saintist3').hide(1000);
+  $('.--Moree-Saintist2').show(1000);
+});
+
+$('#Saintist--Btn3').click(function() {
+  $('.--Moree-Saintist1').hide(1000);
+  $('.--Moree-Saintist2').hide(1000);
+  $('.--Moree-Saintist3').show(1000);
+});
+
+
 });

@@ -158,6 +158,15 @@ body .Saintist-Arrows i:hover{
   transition: all 1s;
 }
 
+.Saintist--Moree{
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.--Moree-Saintist1, .--Moree-Saintist2, .--Moree-Saintist3{
+  display: none;
+}
+
 body .Main--Tel{
   margin-top: 55px;
 }

@@ -41,11 +41,35 @@ header .header--menu ul li:hover{
   transition: all 1s;
 }
 
+body{
+  height: 2000px;
+}
+
 body .--Img-Block--Img{
   background-color:#ffffff;
   background-image:url(https://2vlad5.github.io/Page/asset/img/main-fon.jpg);
   padding-top:250px;
   padding-bottom:80px;
   background-size: cover;
-  background-position: 0% 0%;
+  background-position: 35% 0%;
+}
+
+body .--Img-Block--TXT{
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  background: linear-gradient(0deg, #ff000061, #fff70061);
+  border-radius: 50px;
+}
+
+body .--Img-Block--TXT p{
+  margin: 0;
+}
+
+body .Saintist--Img.San1{
+  background-image:url(https://2vlad5.github.io/Page/asset/img/saintist/San1.jpg);
+  padding-top:80px;
+  padding-bottom:80px;
+  background-size: cover;
+  background-position: 35% 0%;
 }

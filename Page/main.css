@@ -134,6 +134,14 @@ body .Saintist .Saintist--Block p.Saintist--Btn{
   margin-top: 15px;
   background: gray;
   border-radius: 50px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+body .Saintist .Saintist--Block p.Saintist--Btn:hover{
+  background: black;
+  color: white;
+  transition: 1s;
 }
 
 body .Saintist-Arrows{
@@ -238,4 +246,19 @@ body .Tel-Arrows i:hover{
   color: red;
   box-shadow: 0px 0px 20px 0px red;
   transition: all 1s;
+}
+
+@media screen and (max-width: 991px) {
+
+  body .Saintist--Img.tel1{
+    background-position: 25% 0%;
+  }
+
+  body .Saintist--Img.tel2{
+    background-position: 75% 0%;
+  }
+  body .Saintist--Img.tel3{
+    background-position: 55% 0%;
+  }
+
 }
